@@ -8,6 +8,7 @@ async function loadConfig() {
 
     logo.src = cfg.logo || "";
     text.textContent = cfg.text || "";
+    document.title = cfg.title || "";
   } catch (e) {
     console.error("Errore nel caricamento della configurazione:", e);
   }
