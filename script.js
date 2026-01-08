@@ -7,6 +7,7 @@ async function loadConfig() {
     const text = document.getElementById("text");
 
     logo.src = cfg.logo || "";
+    logo.alt = cfg.logo_alt || "";
     text.textContent = cfg.text || "";
     document.title = cfg.title || "";
   } catch (e) {
