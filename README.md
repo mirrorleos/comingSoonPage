@@ -2,7 +2,7 @@
 A simple, configurable page for a coming soon website.
 
 ## ⚙️ Configuration
-The only thing you need to do is spin up a web server, point it to the cloned repository and know the directory of the logo.
+The only thing you need to do is to spin up a web server, point it to the cloned repository and know the directory of the logo.
 Then, create a 'config.json' file that contains the following declarations:
 
 ```json
@@ -15,4 +15,4 @@ Then, create a 'config.json' file that contains the following declarations:
 ```
 
 > [!IMPORTANT]
-> Make sure that the config.json file is in the same folder of the script.js file and the logo is in a place that is reachable for the web server.
+> Make sure that the config.json file is in the same folder as the script.js file and the logo is in a place that is reachable for the web server.
