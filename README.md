@@ -8,8 +8,9 @@ Then, create a 'config.json' file that contains the following declarations:
 ```json
 {
   "logo": "/path/to/your/logo",
+  "logo_alt": "Alternative text for your logo.",
   "text": "The text you want to display under the logo...",
-  "title": "Your website title..."
+  "title": "Your website title."
 }
 ```
 
