@@ -10,9 +10,12 @@ Then, create a 'config.json' file that contains the following declarations:
   "logo": "/path/to/your/logo",
   "logo_alt": "Alternative text for your logo.",
   "text": "The text you want to display under the logo...",
-  "title": "Your website title."
+  "title": "Your website title.",
+  "favicon": "/path/to/your/favicon"
 }
 ```
+> [!TIP]
+> In order for the favicon to be displayed correctly, make sure that the file is a square.
 
 > [!IMPORTANT]
 > Make sure that the config.json file is in the same folder as the script.js file and the logo is in a place that is reachable for the web server.
